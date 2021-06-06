@@ -1,0 +1,1525 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c952573cfa2c21c4bb32cad1c78e07e4, type: 3}
+  m_Name: Dialogue2
+  m_EditorClassIdentifier: 
+  _title: Dialogue2
+  _defaultActor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+  _nodes:
+  - _id: 0
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u043E\u0431\u0440\u044B\u0439 \u0434\u0435\u043D\u044C! \u041F\u0440\u0438\u0441\u0430\u0436\u0438\u0432\u0430\u0439\u0442\u0435\u0441\u044C.
+        \u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 <\u0424\u0418\u041E
+        \u0434\u043E\u043A\u0442\u043E\u0440\u0430>.\n\u0412\u0430\u0448\u0435 \u0424\u0418\u041E?
+        \u0412\u043E\u0437\u0440\u0430\u0441\u0442?"
+      _type: 1
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 1
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 33.99999
+      y: 75.85713
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 1
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041F\u0435\u0442\u0440\u043E\u0432 \u0424\u0435\u0434\u043E\u0440
+        \u0412\u0430\u0441\u0438\u043B\u044C\u0435\u0432\u0438\u0447. 46 \u043B\u0435\u0442."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 2
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 216.85713
+      y: 77.28571
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 2
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0427\u0442\u043E \u0412\u0430\u0441 \u0431\u0435\u0441\u043F\u043E\u043A\u043E\u0438\u0442?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 3
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 392.57138
+      y: 80.14287
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 3
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041F\u0430\u0440\u0443 \u0434\u043D\u0435\u0439 \u043D\u0430\u0437\u0430\u0434,
+        \u0431\u043B\u0438\u0436\u0435 \u043A \u043D\u043E\u0447\u0438, \u043F\u043E\u0447\u0443\u0432\u0441\u0442\u0432\u043E\u0432\u0430\u043B
+        \u0441\u043D\u0430\u0447\u0430\u043B\u0430 \u043D\u0435\u0434\u043E\u043C\u043E\u0433\u0430\u043D\u0438\u0435,
+        \u043F\u043E\u0442\u043E\u043C \u0431\u043E\u043B\u044C \u0432 \u0433\u0440\u0443\u0434\u0438.
+        \u041F\u043E\u043C\u0435\u0440\u0438\u043B \u0442\u0435\u043C\u043F\u0435\u0440\u0430\u0442\u0443\u0440\u0443
+        - (39). \u0421\u0442\u0430\u043B\u043E \u0442\u044F\u0436\u0435\u043B\u043E
+        \u0434\u044B\u0448\u0430\u0442\u044C, \u0431\u043E\u043B\u044C \u0432 \u0433\u0440\u0443\u0434\u0438
+        \u0443\u0441\u0438\u043B\u0438\u0432\u0430\u043B\u0430\u0441\u044C. \u0412\u044B\u0437\u0432\u0430\u043B
+        \u0441\u043A\u043E\u0440\u0443\u044E \u043F\u043E\u043C\u043E\u0449\u044C.
+        \u041E\u043D\u0438 \u043F\u0440\u0438\u0435\u0445\u0430\u043B\u0438, \u0432\u043A\u043E\u043B\u043E\u043B\u0438
+        \u043C\u043D\u0435 \u043A\u0430\u043A\u043E\u0435-\u0442\u043E \u043E\u0431\u0435\u0437\u0431\u043E\u043B\u0438\u0432\u0430\u044E\u0449\u0438\u0435,
+        \u0431\u043E\u043B\u044C \u0443\u0442\u0438\u0445\u043B\u0430, \u043E\u043D\u0438
+        \u0443\u0435\u0445\u0430\u043B\u0438. \u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u043B
+        \u0443\u0441\u043D\u0443\u0442\u044C, \u043D\u043E \u0432\u0441\u0435 \u043D\u0438\u043A\u0430\u043A
+        \u043D\u0435 \u043C\u043E\u0433, \u0432\u043E\u0440\u043E\u0447\u0430\u043B\u0441\u044F.
+        \u0415\u0449\u0435 \u0438 \u0432 \u043F\u043E\u0442 \u0431\u0440\u043E\u0441\u0438\u043B\u043E.
+        \u0412 \u0438\u0442\u043E\u0433\u0435, \u0443\u0441\u043D\u0443\u043B. \u0423\u0442\u0440\u043E\u043C
+        \u0441\u043E\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u0442\u043E\u043B\u044C\u043A\u043E
+        \u0445\u0443\u0436\u0435 \u0441\u0442\u0430\u043B\u043E: \u0433\u043E\u043B\u043E\u0432\u0430
+        \u0437\u0430\u0431\u043E\u043B\u0435\u043B\u0430, \u043D\u0435\u0434\u043E\u043C\u043E\u0433\u0430\u043D\u0438\u0435
+        \u0443\u0441\u0438\u043B\u0438\u043B\u043E\u0441\u044C, \u0438 \u043D\u0430\u0447\u0430\u043B
+        \u043A\u0430\u0448\u043B\u044F\u0442\u044C. \u0420\u0435\u0448\u0438\u043B,
+        \u0447\u0442\u043E \u043D\u0430\u0434\u043E \u0438\u0434\u0442\u0438 \u0432
+        \u043F\u043E\u043B\u0438\u043A\u043B\u0438\u043D\u0438\u043A\u0443. \u0418
+        \u0432\u043E\u0442 \u044F \u0443 \u0432\u0430\u0441."
+      _type: 0
+      _triggers:
+      - anamnesis2 0
+      _responses:
+      - _text: 
+        _nextId: 4
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 559.7143
+      y: 81.57145
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 4
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0411\u043E\u043B\u0438 \u0432 \u0433\u0440\u0443\u0434\u0438 \u043A\u0430\u043A\u043E\u0433\u043E
+        \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0430 \u0431\u044B\u043B\u0438:
+        \u043A\u043E\u043B\u044E\u0449\u0438\u0435, \u0434\u0430\u0432\u044F\u0449\u0438\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 5
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 736.8571
+      y: 84.428604
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 5
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u0430\u043A \u0431\u0443\u0434\u0442\u043E \u0441\u0434\u0430\u0432\u043B\u0438\u0432\u0430\u043B\u043E,
+        \u0434\u043E\u043A\u0442\u043E\u0440."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 6
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 915.5624
+      y: 84.428604
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 6
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u0443\u0434\u0430-\u043D\u0438\u0431\u0443\u0434\u044C \u201C\u043E\u0442\u0434\u0430\u0432\u0430\u043B\u043E\u201D?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 7
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1074.863
+      y: 85.589294
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 7
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 8
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1231.4552
+      y: 86.154785
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 8
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0411\u043E\u043B\u0438\u0442 \u0432 \u043F\u043E\u043A\u043E\u0435
+        \u0438\u043B\u0438 \u043F\u0440\u0438 \u043D\u0430\u0433\u0440\u0443\u0437\u043A\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 9
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1229.375
+      y: 192.34373
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 9
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u043E\u0433\u0434\u0430 \u043F\u044B\u0442\u0430\u044E\u0441\u044C
+        \u0433\u043B\u0443\u0431\u043E\u043A\u043E \u0432\u0434\u043E\u0445\u043D\u0443\u0442\u044C
+        - \u0431\u043E\u043B\u0438\u0442."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 10
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1071.5625
+      y: 197.03123
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 10
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u043F\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438
+        \u0431\u043E\u043B\u0435\u043B\u043E \u0432 \u0433\u0440\u0443\u0434\u0438
+        \u0434\u043E \u043F\u0440\u0438\u0435\u0437\u0434\u0430 \u0441\u043A\u043E\u0440\u043E\u0439?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 11
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 910.62494
+      y: 195.46873
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 11
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0443, \u043F\u0440\u0438\u043C\u0435\u0440\u043D\u043E \u0447\u0430\u0441."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 12
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 734.0625
+      y: 193.90623
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 12
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041F\u043E\u0441\u043B\u0435 \u0438\u043D\u044A\u0435\u043A\u0446\u0438\u0438
+        \u043E\u0431\u0435\u0437\u0431\u043E\u043B\u0438\u0432\u0430\u044E\u0449\u0435\u0433\u043E
+        \u0431\u043E\u043B\u044C \u043F\u0440\u043E\u0448\u043B\u0430?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 13
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 574.8958
+      y: 198.59373
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 13
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: " \u0414\u0430"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 14
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 390.31247
+      y: 195.46873
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 14
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0412\u044B \u0441\u043A\u0430\u0437\u0430\u043B\u0438, \u0447\u0442\u043E
+        \u0431\u044B\u043B\u043E \u0442\u044F\u0436\u0435\u043B\u043E \u0434\u044B\u0448\u0430\u0442\u044C.
+        \u0427\u0442\u043E \u0442\u044F\u0436\u0435\u043B\u0435\u0435: \u0432\u0434\u043E\u0445
+        \u0438\u043B\u0438 \u0432\u044B\u0434\u043E\u0445?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 15
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 193.43748
+      y: 190.78125
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 15
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0412\u0434\u043E\u0445."
+      _type: 0
+      _triggers:
+      - anamnesis2 1
+      _responses:
+      - _text: 
+        _nextId: 16
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 29.374973
+      y: 195.46873
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 16
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u0430\u0448\u043B\u044F\u0435\u0442\u0435 \u0441 \u043C\u043E\u043A\u0440\u043E\u0442\u043E\u0439
+        \u0438\u043B\u0438 \u0431\u0435\u0437?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 17
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 29.374973
+      y: 298.59378
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 17
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0411\u0435\u0437 \u043C\u043E\u043A\u0440\u043E\u0442\u044B, \u043A\u0430\u0448\u0435\u043B\u044C
+        \u0441\u0443\u0445\u043E\u0439."
+      _type: 0
+      _triggers:
+      - anamnesis2 2
+      _responses:
+      - _text: 
+        _nextId: 18
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 193.43748
+      y: 306.40628
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 18
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0422\u0435\u043C\u043F\u0435\u0440\u0430\u0442\u0443\u0440\u0443
+        \u0443\u0442\u0440\u043E\u043C \u043C\u0435\u0440\u0438\u043B\u0438?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 19
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 380.9375
+      y: 307.96878
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 19
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430, \u0432\u0441\u0435 \u0442\u0430\u043A\u0436\u0435 38,5."
+      _type: 0
+      _triggers:
+      - anamnesis2 3
+      _responses:
+      - _text: 
+        _nextId: 20
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 562.1875
+      y: 317.34378
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 20
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041F\u0440\u0438\u043D\u0438\u043C\u0430\u043B\u0438 \u043B\u0438
+        \u043A\u0430\u043A\u0438\u0435-\u043B\u0438\u0431\u043E \u043B\u0435\u043A\u0430\u0440\u0441\u0442\u0432\u0430
+        \u0434\u043B\u044F \u043E\u0431\u043B\u0435\u0433\u0447\u0435\u043D\u0438\u044F
+        \u0441\u0438\u043C\u043F\u0442\u043E\u043C\u043E\u0432?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 21
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 724.6875
+      y: 314.21878
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 21
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442, \u0432\u043E\u0442 \u0442\u043E\u043B\u044C\u043A\u043E
+        \u0432\u0440\u0430\u0447\u0438 \u043D\u0430 \u0441\u043A\u043E\u0440\u043E\u0439
+        \u0432\u043A\u043E\u043B\u043E\u043B\u0438 \u043E\u0431\u0435\u0437\u0431\u043E\u043B\u0438\u0432\u0430\u044E\u0449\u0435\u0435
+        \u0438 \u0432\u0441\u0435."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 22
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 901.24994
+      y: 312.65628
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 22
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0421 \u0447\u0435\u043C \u0441\u0432\u044F\u0437\u044B\u0432\u0430\u0435\u0442\u0435
+        \u0441\u0432\u043E\u0435 \u0437\u0430\u0431\u043E\u043B\u0435\u0432\u0430\u043D\u0438\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 23
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1227.2916
+      y: 314.42712
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 23
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0443\u043C\u0430\u044E,\u044D\u0442\u043E \u0438\u0437-\u0437\u0430
+        \u043F\u0435\u0440\u0435\u043E\u0445\u043B\u0430\u0436\u0434\u0435\u043D\u0438\u044F."
+      _type: 0
+      _triggers:
+      - anamnesis2 4
+      _responses:
+      - _text: 
+        _nextId: 24
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1219.1666
+      y: 411.66666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 24
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041F\u043E\u043C\u0438\u043C\u043E \u0432\u0430\u0441 \u0434\u043E\u043C\u0430
+        \u0435\u0449\u0435 \u043A\u0442\u043E-\u0442\u043E \u0435\u0441\u0442\u044C?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 25
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1057.5
+      y: 413.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 25
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430, \u0436\u0435\u043D\u0430. "
+      _type: 0
+      _triggers:
+      - anamnesis2 5
+      _responses:
+      - _text: 
+        _nextId: 26
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 905.8333
+      y: 411.66666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 26
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0413\u0434\u0435 \u0436\u0435\u043D\u0430 \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 27
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 729.1666
+      y: 413.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 27
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0438\u0433\u0434\u0435, \u0434\u043E\u043C\u043E\u0445\u043E\u0437\u044F\u0439\u043A\u0430."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 28
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 567.5
+      y: 416.66666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 28
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0412\u044B \u043A\u0435\u043C \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 28
+        _conditions: 
+      - _text: 
+        _nextId: 29
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 390.8333
+      y: 416.66666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 29
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0430\u0447\u0430\u043B\u044C\u043D\u0438\u043A\u043E\u043C
+        \u0440\u0435\u043C\u043E\u043D\u0442\u043D\u043E\u0433\u043E \u0446\u0435\u043D\u0442\u0440\u0430."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 30
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 210.83333
+      y: 419.99997
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 30
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0430 \u0440\u0430\u0431\u043E\u0442\u0435 \u043A\u0442\u043E-\u043D\u0438\u0431\u0443\u0434\u044C
+        \u0431\u043E\u043B\u0435\u043B \u0432 \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0435\u0435
+        \u0432\u0440\u0435\u043C\u044F, \u043D\u0435 \u0437\u0430\u043C\u0435\u0447\u0430\u043B\u0438?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 31
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 37.5
+      y: 413.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 31
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442, \u043D\u0435 \u043F\u0440\u0438\u043F\u043E\u043C\u043D\u044E. "
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 32
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 34.166664
+      y: 513.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 32
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u0430\u043A\u0443\u044E \u0432\u043E\u0434\u0443 \u043F\u044C\u0435\u0442\u0435?
+        \u0413\u0434\u0435 \u043E\u0431\u0435\u0434\u0430\u0435\u0442\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 33
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 205.83333
+      y: 521.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 33
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u044E \u0432\u043E\u0434\u0443
+        \u0438\u0437-\u043F\u043E\u0434 \u043A\u0440\u0430\u043D\u0430. \u041D\u0435
+        \u0441\u044B\u0440\u0443\u044E, \u043A\u043E\u043D\u0435\u0447\u043D\u043E.
+        \u0424\u0438\u043B\u044C\u0442\u0440\u044B \u043F\u043E\u043A\u0443\u043F\u0430\u044E.
+        \u0423\u0442\u0440\u043E\u043C \u0438 \u0432\u0435\u0447\u0435\u0440\u043E\u043C
+        - \u0434\u043E\u043C\u0430 \u0435\u043C. \u041E\u0431\u0435\u0434\u0430\u044E
+        - \u043D\u0430 \u0440\u0430\u0431\u043E\u0442\u0435, \u0435\u0434\u0443 \u0432
+        \u043A\u043E\u043D\u0442\u0435\u0439\u043D\u0435\u0440\u0435 \u0431\u0435\u0440\u0443."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 34
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 392.49997
+      y: 525
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 34
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0415\u0434\u0443, \u0432 \u043F\u043B\u0430\u043D\u0435 \u043C\u043E\u043B\u043E\u0447\u043D\u044B\u0445
+        \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u043E\u0432, \u0444\u0440\u0443\u043A\u0442\u043E\u0432,
+        \u043C\u044F\u0441\u0430, \u0440\u044B\u0431\u044B, \u043E\u0431\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u0442\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 35
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 574.1666
+      y: 515
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 35
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430, \u043A\u043E\u043D\u0435\u0447\u043D\u043E. \u041C\u043E\u043B\u043E\u043A\u043E
+        \u0440\u0430\u0437\u043E\u0433\u0440\u0435\u0432\u0430\u044E \u043F\u0435\u0440\u0435\u0434
+        \u0443\u043F\u043E\u0442\u0440\u0435\u0431\u043B\u0435\u043D\u0438\u0435\u043C.
+        \u041F\u0438\u0442\u0430\u044E\u0441\u044C \u0441\u0432\u0435\u0436\u0438\u043C\u0438
+        \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u0430\u043C\u0438 - \u0441\u0440\u043E\u043A
+        \u0433\u043E\u0434\u043D\u043E\u0441\u0442\u0438 \u0441\u043C\u043E\u0442\u0440\u044E."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 36
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 739.1666
+      y: 515
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 36
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0410 \u043A\u0430\u043A \u0440\u044B\u0431\u0443 \u0438 \u043C\u044F\u0441\u043E
+        \u043E\u0431\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u0442\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 37
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 915.8333
+      y: 509.99997
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 37
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041C\u044F\u0441\u043E \u0432 \u043C\u0443\u043B\u044C\u0442\u0438\u0432\u0430\u0440\u043A\u0435,
+        \u0442\u0430\u043C \u0435\u0441\u0442\u044C \u0440\u0435\u0436\u0438\u043C.
+        \u0420\u044B\u0431\u0443 - \u0437\u0430\u043F\u0435\u043A\u0430\u044E \u043D\u0430
+        4 \u0447\u0430\u0441\u0430. \u042F\u0439\u0446\u0430 - \u0432\u0430\u0440\u044E,
+        \u043B\u0438\u0431\u043E \u0436\u0430\u0440\u044E \u0442\u0449\u0430\u0442\u0435\u043B\u044C\u043D\u043E."
+      _type: 0
+      _triggers:
+      - anamnesis2 5
+      _responses:
+      - _text: 
+        _nextId: 38
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1067.5
+      y: 513.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 38
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u0430\u043A \u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430
+        \u0443\u0441\u0442\u0440\u043E\u0435\u043D\u0430? \u041D\u0435\u0442 \u0442\u0430\u0440\u0430\u043A\u0430\u043D\u043E\u0432,
+        \u043C\u0443\u0445, \u043C\u043E\u0448\u0435\u043A? \u041F\u0440\u043E\u0432\u0435\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0435
+        \u043F\u043E\u043C\u0435\u0449\u0435\u043D\u0438\u0435? \u0421\u044B\u0440\u043E\u0441\u0442\u044C
+        \u0432 \u0432\u0430\u043D\u043D\u043E\u0439, \u043D\u0430 \u0441\u0442\u0435\u043D\u0430\u0445,
+        \u0438\u043C\u0435\u0435\u0442\u0441\u044F?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 39
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1235.8333
+      y: 508.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 39
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0416\u0438\u0432\u0443 \u0432 \u043C\u043D\u043E\u0433\u043E\u044D\u0442\u0430\u0436\u043D\u043E\u043C
+        \u0434\u043E\u043C\u0435. \u041A\u0432\u0430\u0440\u0442\u0438\u0440\u0443
+        \u0436\u0435\u043D\u0430 \u0443\u0431\u0438\u0440\u0430\u0435\u0442 \u043F\u043E
+        \u0432\u044B\u0445\u043E\u0434\u043D\u044B\u043C \u043A\u0430\u0436\u0434\u0443\u044E
+        \u043D\u0435\u0434\u0435\u043B\u044E. \u041D\u0435\u0442, \u0432\u0440\u0435\u0434\u0438\u0442\u0435\u043B\u0435\u0439
+        \u043D\u0435\u0442. \u041F\u0440\u043E\u0432\u0435\u0442\u0440\u0438\u0432\u0430\u0435\u043C
+        \u0440\u0430\u0437 \u0432 \u0434\u0435\u043D\u044C \u043F\u0440\u0438\u043C\u0435\u0440\u043D\u043E,
+        \u043F\u0435\u0440\u0435\u0434 \u0441\u043D\u043E\u043C. \u041D\u0435\u0442,
+        \u0432\u0441\u0435 \u0441\u0443\u0445\u043E."
+      _type: 0
+      _triggers:
+      - anamnesis2 6
+      _responses:
+      - _text: 
+        _nextId: 40
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1229.1666
+      y: 606.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 40
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u043E\u0433\u0434\u0430 \u0434\u043E\u043C\u043E\u0439 \u043F\u0440\u0438\u0445\u043E\u0434\u0438\u0442\u0435
+        \u0438 \u043F\u0435\u0440\u0435\u0434 \u0435\u0434\u043E\u0439 \u043C\u043E\u0435\u0442\u0435
+        \u0440\u0443\u043A\u0438?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 41
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1069.1666
+      y: 610
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 41
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430, \u043A\u043E\u043D\u0435\u0447\u043D\u043E."
+      _type: 0
+      _triggers:
+      - anamnesis2 7
+      _responses:
+      - _text: 
+        _nextId: 42
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 907.49994
+      y: 611.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 42
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u0430\u043A\u0438\u043C \u0442\u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442\u043E\u043C
+        \u043F\u0435\u0440\u0435\u0434\u0432\u0438\u0433\u0430\u0435\u0442\u0435\u0441\u044C
+        \u043F\u043E \u0433\u043E\u0440\u043E\u0434\u0443 \u0438 \u0434\u043E \u0440\u0430\u0431\u043E\u0442\u044B?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 43
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 735.8334
+      y: 608.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 43
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0412 \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u043C \u043D\u0430
+        \u043C\u0430\u0448\u0438\u043D\u0435 \u0435\u0437\u0436\u0443, \u0438\u043D\u043E\u0433\u0434\u0430
+        \u043F\u0440\u043E\u0433\u0443\u043B\u0438\u0432\u0430\u044E\u0441\u044C."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 44
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 567.5
+      y: 606.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 44
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0417\u0430\u0445\u043E\u0434\u0438\u0442\u0435 \u0432 \u043A\u0430\u043A\u0438\u0435-\u043D\u0438\u0431\u0443\u0434\u044C
+        \u0437\u0430\u043A\u0443\u0441\u043E\u0447\u043D\u044B\u0435? \u0422\u043E\u0440\u0433\u043E\u0432\u044B\u0435
+        \u0446\u0435\u043D\u0442\u0440\u044B \u043F\u043E\u0441\u0435\u0449\u0430\u0435\u0442\u0435?
+        \u041E\u0431\u0449\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435
+        \u0431\u0430\u043D\u0438, \u0440\u044B\u043D\u043A\u0438, \u043F\u0430\u0440\u0438\u043A\u043C\u0430\u0445\u0435\u0440\u0441\u043A\u0438\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 45
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 389.16666
+      y: 621.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 45
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442. \u041A\u0440\u043E\u043C\u0435 \u0442\u0435\u0445
+        \u043C\u043E\u043C\u0435\u043D\u0442\u043E\u0432, \u043A\u043E\u0433\u0434\u0430
+        \u043D\u0443\u0436\u043D\u043E \u043F\u0440\u043E\u0434\u0443\u043A\u0442\u044B
+        \u043A\u0443\u043F\u0438\u0442\u044C, \u043D\u043E \u0438 \u0442\u0430\u043C
+        \u043F\u043E\u043B\u044C\u0437\u0443\u044E\u0441\u044C \u043F\u0435\u0440\u0447\u0430\u0442\u043A\u0430\u043C\u0438
+        \u0438 \u043C\u0430\u0441\u043A\u0430\u043C\u0438. \u0418 \u043A\u043E\u0433\u0434\u0430
+        \u043F\u043E\u0434\u0441\u0442\u0440\u0438\u0447\u044C\u0441\u044F \u043D\u0430\u0434\u043E.
+        \u0422\u0430\u043C \u043B\u044E\u0434\u0438 \u0432 \u043C\u0430\u0441\u043A\u0430\u0445
+        \u0440\u0430\u0431\u043E\u0442\u0430\u044E\u0442."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 46
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 212.49998
+      y: 608.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 46
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041B\u0435\u0447\u0438\u043B\u0438\u0441\u044C \u043B\u0438 \u043E\u0442
+        \u043A\u0430\u043A\u0438\u0445-\u043B\u0438\u0431\u043E \u0433\u0435\u043B\u044C\u043C\u0438\u043D\u0442\u043E\u0432,
+        \u0432\u0448\u0435\u0439, \u043A\u043B\u0435\u0449\u0435\u0439, \u0431\u043B\u043E\u0445?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 47
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 49.166664
+      y: 610
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 47
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442, \u0434\u043E\u043A\u0442\u043E\u0440."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 48
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 50.833332
+      y: 719.99994
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 48
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041C\u043E\u0436\u0435\u0442 \u043A\u0442\u043E-\u0442\u043E \u0438\u0437
+        \u0440\u043E\u0434\u043D\u044B\u0445 \u0431\u043E\u043B\u0435\u043B?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 49
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 234.16666
+      y: 721.66656
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 49
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442."
+      _type: 0
+      _triggers:
+      - anamnesis2 8
+      _responses:
+      - _text: 
+        _nextId: 50
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 417.49997
+      y: 730
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 50
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u041F\u0440\u043E\u0432\u043E\u0434\u0438\u043B\u0438\u0441\u044C
+        \u043E\u043F\u0435\u0440\u0430\u0446\u0438\u0438, \u0438\u043D\u044A\u0435\u043A\u0446\u0438\u0438,
+        \u043F\u0435\u0440\u0435\u043B\u0438\u0432\u0430\u043D\u0438\u044F \u043A\u0440\u043E\u0432\u0438
+        \u043A\u043E\u0433\u0434\u0430-\u043B\u0438\u0431\u043E?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 51
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 587.5
+      y: 730
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 51
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442, \u0434\u043E\u043A\u0442\u043E\u0440."
+      _type: 0
+      _triggers:
+      - anamnesis2 9
+      _responses:
+      - _text: 
+        _nextId: 52
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 767.5
+      y: 731.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 52
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0420\u0430\u043D\u0435\u043D\u0438\u044F, \u0446\u0430\u0440\u0430\u043F\u0438\u043D\u044B,
+        \u043E\u043F\u0440\u0435\u043B\u043E\u0441\u0442\u0438, \u043C\u0438\u043A\u0440\u043E\u0442\u0440\u0430\u0432\u043C\u044B
+        \u043A\u043E\u0436\u0438 \u043D\u0430\u0431\u043B\u044E\u0434\u0430\u043B\u0438\u0441\u044C?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 53
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 917.49994
+      y: 731.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 53
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442."
+      _type: 0
+      _triggers:
+      - anamnesis2 10
+      _responses:
+      - _text: 
+        _nextId: 54
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1082.5
+      y: 733.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 54
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0412\u044B \u0441\u043A\u0430\u0437\u0430\u043B\u0438, \u0447\u0442\u043E
+        \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442\u0435 \u043D\u0430\u0447\u0430\u043B\u044C\u043D\u0438\u043A\u043E\u043C
+        \u0440\u0435\u043C\u043E\u043D\u0442\u043D\u043E\u0433\u043E \u0446\u0435\u0445\u0430?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 55
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1244.1666
+      y: 839.99994
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 55
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 56
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1082.5
+      y: 841.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 56
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0427\u0430\u0441\u0442\u043E \u043A\u043E\u043D\u0442\u0430\u043A\u0442\u0438\u0440\u0443\u0435\u0442\u0435
+        \u0441 \u043A\u043E\u043B\u043B\u0435\u0433\u0430\u043C\u0438?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 57
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 914.1666
+      y: 836.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 57
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430 \u043D\u0435 \u043E\u0441\u043E\u0431\u043E, \u0432 \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u043C
+        \u0431\u0443\u043C\u0430\u0436\u043D\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 58
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 747.5
+      y: 848.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 58
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0447\u0430\u0441\u043E\u0432
+        \u0432 \u0434\u0435\u043D\u044C \u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 59
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 585.8333
+      y: 853.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 59
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430 \u0441\u0442\u0430\u043D\u0434\u0430\u0440\u0442\u043D\u043E.
+        8 \u0447\u0430\u0441\u043E\u0432. \u041E\u043F\u043B\u0430\u0442\u0430 \u0442\u0440\u0443\u0434\u0430,
+        \u0432 \u043F\u0440\u0438\u043D\u0446\u0438\u043F\u0435, \u043F\u043E\u043B\u043D\u043E\u0446\u0435\u043D\u043D\u0430\u044F."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 60
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 414.16666
+      y: 853.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 60
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0413\u043E\u0432\u043E\u0440\u0438\u0442\u0435 \u0431\u0443\u043C\u0430\u0436\u043D\u0430\u044F
+        \u0440\u0430\u0431\u043E\u0442\u0430, \u0430 \u0437\u0430 \u043A\u043E\u043C\u043F\u044C\u044E\u0442\u0435\u0440\u043E\u043C
+        \u043C\u043D\u043E\u0433\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438
+        \u043F\u0440\u043E\u0432\u043E\u0434\u0438\u0442\u0435? "
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 61
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 224.16666
+      y: 853.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 61
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430 \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438
+        \u0432\u0435\u0441\u044C \u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0434\u0435\u043D\u044C. "
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 62
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 49.166664
+      y: 854.99994
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 62
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0427\u0430\u0441\u0442\u043E \u0431\u043E\u043B\u0435\u0435\u0442\u0435?
+        \u0427\u0435\u043C \u0431\u043E\u043B\u0435\u043B\u0438?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 63
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 55.833332
+      y: 974.99994
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 63
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430 \u043D\u0435\u0442. \u041E\u0420\u0412\u0418, \u0432 \u043E\u0441\u043D\u043E\u0432\u043D\u043E\u043C.
+        \u0412 \u0434\u0435\u0442\u0441\u0442\u0432\u0435 - \u0432\u0435\u0442\u0440\u044F\u043D\u043A\u0430
+        \u0431\u044B\u043B\u0430."
+      _type: 0
+      _triggers:
+      - anamnesis2 11
+      _responses:
+      - _text: 
+        _nextId: 64
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 244.16666
+      y: 968.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 64
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0410 \u0441\u043A\u043E\u043B\u044C\u043A\u043E \u043F\u0440\u0438\u043C\u0435\u0440\u043D\u043E
+        \u0440\u0430\u0437 \u0432 \u0433\u043E\u0434 \u0432\u044B \u0431\u043E\u043B\u0435\u0435\u0442\u0435
+        \u041E\u0420\u0412\u0418?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 65
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 424.16666
+      y: 964.99994
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 65
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430, 1-2 \u0440\u0430\u0437\u0430, \u043F\u0440\u0438\u043C\u0435\u0440\u043D\u043E."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 66
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 585.8333
+      y: 971.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 66
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0411\u044B\u043B\u0438 \u043B\u0438 \u0430\u043B\u043B\u0435\u0440\u0433\u0438\u0438
+        \u0432 \u0434\u0435\u0442\u0441\u0442\u0432\u0435, \u0441\u0435\u0439\u0447\u0430\u0441?
+        \u0423 \u0440\u043E\u0434\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u043A\u043E\u0432?
+        \u041B\u0435\u0447\u0438\u043B\u0438\u0441\u044C \u043B\u0438?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 67
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 752.5
+      y: 974.99994
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 67
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041D\u0435\u0442. \u041B\u0435\u0447\u0435\u043D\u0438\u0435 \u0442\u043E\u0436\u0435
+        \u043D\u0435 \u043F\u0440\u043E\u0432\u043E\u0434\u0438\u043B\u043E\u0441\u044C."
+      _type: 0
+      _triggers:
+      - anamnesis2 12
+      _responses:
+      - _text: 
+        _nextId: 68
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 932.49994
+      y: 959.99994
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 68
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0410\u043B\u043A\u043E\u0433\u043E\u043B\u044C, \u043A\u0443\u0440\u0435\u043D\u0438\u0435?
+        \u0423\u043F\u043E\u0442\u0440\u0435\u0431\u043B\u044F\u0435\u0442\u0435?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 69
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1104.1666
+      y: 961.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 69
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041A\u0443\u0440\u044E \u0438 \u0432\u044B\u043F\u0438\u0432\u0430\u044E
+        \u0438\u043D\u043E\u0433\u0434\u0430."
+      _type: 0
+      _triggers:
+      - anamnesis2 12
+      _responses:
+      - _text: 
+        _nextId: 70
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1260.8333
+      y: 958.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 70
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u043F\u0430\u0447\u0435\u043A?
+        \u0421\u0438\u0433\u0430\u0440\u0435\u0442 \u0432 \u0434\u0435\u043D\u044C?"
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 71
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1232.5
+      y: 1078.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 71
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u041F\u0440\u0438\u043C\u0435\u0440\u043D\u043E \u043F\u043E\u043B
+        \u0441\u0438\u0433\u0430\u0440\u0435\u0442 \u0432 \u0434\u0435\u043D\u044C,
+        \u043B\u0435\u0442 \u0441 15. "
+      _type: 0
+      _triggers:
+      - anamnesis2 13
+      _responses:
+      - _text: 
+        _nextId: 72
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 1060.8333
+      y: 1083.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 72
+    _sentence:
+      _actor: {fileID: 11400000, guid: 3d7792bd96e94eb41b0bfde063f4aee5, type: 2}
+      _expressionID: 0
+      _text: "\u0410 \u0430\u043B\u043A\u043E\u0433\u043E\u043B\u044C \u043A\u0430\u043A
+        \u0447\u0430\u0441\u0442\u043E \u0443\u043F\u043E\u0442\u0440\u0435\u0431\u044F\u043B\u044F\u0442\u0435? "
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 73
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 904.1666
+      y: 1083.3333
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 73
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: "\u0414\u0430 \u0440\u0435\u0434\u043A\u043E. \u0420\u0430\u0437-\u0434\u0432\u0430
+        \u0432 \u043C\u0435\u0441\u044F\u0446 \u0431\u0430\u043D\u043A\u0443 \u043F\u0438\u0432\u0430."
+      _type: 0
+      _triggers: []
+      _responses:
+      - _text: 
+        _nextId: 74
+        _conditions: 
+    _rect:
+      serializedVersion: 2
+      x: 749.1666
+      y: 1085
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0
+  - _id: 74
+    _sentence:
+      _actor: {fileID: 11400000, guid: 7b9157a3928345a4aa5797e5b1e1bac1, type: 2}
+      _expressionID: 0
+      _text: 
+      _type: 2
+      _triggers: []
+      _responses: []
+    _rect:
+      serializedVersion: 2
+      x: 572.5
+      y: 1091.6666
+      width: 130
+      height: 59.999996
+    _deletedFlag: 0

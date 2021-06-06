@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EventS">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAkAACAAAAAAAAAAAAAAAAAAAAABGAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\EventS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ratings.Rating">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAQCAAAAEAAABAAAAAEAAAAgAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneChanger">
+    <Position X="19.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Scripts\SceneChanger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentsData.CreateStudents">
+    <Position X="21.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACCAAAAEFAIAAAAACAAAAAgBEAAAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\UI\CreateStudents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anamn.AnamnesisT">
+    <Position X="5.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\UI\AnamnesisT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentsData.RememberResult">
+    <Position X="21.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\UI\RememberResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Anamn.Anamnesis">
+    <Position X="16.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAAAAAAAAAAAAAAAwAEAIAAAAgCAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\Structures\Anamnesis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentsData.Results">
+    <Position X="16.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Structures\Results.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentsData.Student">
+    <Position X="16.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Structures\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraModel">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAIACAABgEAQBAAAAIQQAAAEAABAAAAIBAIAEA=</HashCode>
+      <FileName>Assets\Scripts\ModelS\CameraModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ModelTrigger">
+    <Position X="17" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ModelS\ModelTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PalpationTrigger">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\ModelS\PalpationTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GrabSystem">
+    <Position X="12.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCAiAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Control\GrabSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickableItem">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Control\PickableItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUIAAAAECAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Control\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnalysisButton">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAIIIACAEAAAAAAAAAAAIERIAADAAIAAAEIAABAA=</HashCode>
+      <FileName>Assets\Scripts\Buttons\AnalysisButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnamnesisButton">
+    <Position X="7.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Buttons\AnamnesisButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Diagnosis">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYIAAAgACAAAAARAAAABABAACIAAAkAAAAAAAAIAEA=</HashCode>
+      <FileName>Assets\Scripts\Buttons\Diagnosis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudyButton">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAZAQRAAACQAABIMgAIABAAoEhAAAAAAABUgABAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Buttons\StudyButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PatientObj.PatientChoice">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAZAKAgAACBABEAAAAAAAAAAgAAAAAABAAAAAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\Buttons\PatientChoice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DialogueSystem.BasicTriggerHandler">
+    <Position X="18.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\DialogueSystem\Framework\Controller\BasicTriggerHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aid.Questions">
+    <Position X="18.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAwD0CAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Structures\Questions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aid.Answers">
+    <Position X="14" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAiAAAAAAAAAAAAAAgBQAAAAEAAIAAAAAAIA=</HashCode>
+      <FileName>Assets\Scripts\FirstAid\Answers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aid.EventAid">
+    <Position X="12.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAkAACBAAAAAAAAAAQAAAAAAAAABGAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FirstAid\EventAid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentsData.ResultAid">
+    <Position X="14" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\FirstAid\ResultAid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aid.Timer">
+    <Position X="12.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAEAAAIAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FirstAid\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Aid.Trigger">
+    <Position X="14" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\FirstAid\Trigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
